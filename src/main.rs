@@ -1,4 +1,4 @@
-use Basic::Queue;
+use queue::Queue;
 fn main(){
     let mut x = Queue::new(Vec::new());
     x.append(456);
